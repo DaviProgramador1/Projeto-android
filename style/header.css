@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     width: 100%;
     padding: 28px 0%;
@@ -85,3 +89,132 @@ header{
  
   
     
+/* Testando */
+.drinks-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.drink-card {
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.drink-card:hover {
+    transform: translateY(-10px);
+}
+
+.drink-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.drink-info {
+    padding: 20px;
+    color: white;
+}
+
+.drink-meta {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.drink-meta i {
+    margin-right: 5px;
+}
+
+.drink-info h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.drink-info h3 strong {
+    display: block;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Cores de fundo dos cards */
+.bg-blue {
+    background-color: #c411df;
+}
+
+.bg-green {
+    background-color: #00CEC9;
+}
+
+.bg-pink {
+    background-color: #35ed20;
+}
+
+
+
+.footer {
+    background-color: #7c0a0f;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 90px;
+}
+
+.footer .social-icons {
+    margin-bottom: 20px;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #7c0a0f;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.footer .social-icons a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.footer-menu li a:hover {
+    color: #ddd;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #aaa;
+}

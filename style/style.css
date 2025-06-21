@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap');
+
+
 /* ffae2f;
 
 #890e15d5
@@ -98,8 +102,9 @@ section {
     top: 0;
     right: 0;
     z-index: 1;
-
+     
 }
+
 
 @media  screen and (max-width:1387px) {
     #home {
@@ -153,9 +158,11 @@ section {
     }
   }
 
+
 img.vinho {
     animation: toActive 0.8s ease-in-out 1;
 }
+
 
  .itemm {
     display: none;
@@ -177,13 +184,19 @@ img.vinho {
  .titlee {
     font-size: 12rem;
     color: #ffffff;
+
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
+
+    
 
     position: absolute;
     left: 50%;
     top: 50%;
     transform:translate(-50%, -50%) ;
+
+     animation: oloco 0.9s ease-in-out 1;
+
 
  }
 
@@ -192,6 +205,7 @@ img.vinho {
     left: 50%;
     top: 50%;
     transform:translate(-50%, -50%) ;
+
 
  }
 
@@ -203,7 +217,7 @@ img.vinho {
 
  .arrow {
     position: absolute;
-    top: 250%;  /* Quanto maior o número, mais pra baixo */
+    top: 50%;
     left: 0;
     width: 100%;
     display: flex;
@@ -235,6 +249,85 @@ img.vinho {
     }
 }
 
+@keyframes oloco {
+    from {
+        left: 100%;
+        opacity: 0;
+
+    }
+}
+
 .bebidao {
     animation: animaçao 0.5s ease-in-out 1;
 }
+
+.bebidass {
+    position: relative;
+    overflow: hidden;
+    height: 700px;
+    margin: 0;
+    top: 0;
+    padding: 0;
+}
+
+.textfim {
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+   margin-left: 980px;
+   transform:translate(-50%, -50%) ;
+   white-space: nowrap;          /* Impede quebra de linha */
+   position: flex;
+   display: hi;
+   
+    
+    
+}
+
+
+.section-tittle  {
+    font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.section-subtittle {
+    font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.hfinal {
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 150px;
+     font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.roxo {
+    color: #942222;
+     font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*FONTE font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  */
+  
+
+ 
